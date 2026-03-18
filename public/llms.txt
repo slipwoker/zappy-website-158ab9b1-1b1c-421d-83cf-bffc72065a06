@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# בית מדרש קהילתי לרבנים — Generative Engine Optimization Map
+
+> A community-based Torah study institution (Beit Midrash) aimed at rabbis and rabbinical students. The institution appears to have a communal and educational character, focused on Jewish learning and rabbinical training within a community framework.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://beit-midrash-kehilati-lerabani.zappy5.app
 בית המדרש לרבנים המוביל בישראל מזמין אתכם לעולם של לימוד תורני עמוק, הכשרה רבנית מקצועית וקהילה תומכת. הצטרפו אלינו ועצבו את עתיד הרבנות הקהילתית.
 
 ### אודות
-https://example.com/about
+https://beit-midrash-kehilati-lerabani.zappy5.app/about
 גלו את הסיפור מאחורי המוסד התורני שמכשיר דור חדש של רבנים קהילתיים בישראל. ערכים, חזון ומסורת של מצוינות רבנית שמניעים אותנו קדימה בכל יום.
 
 ### תוכניות
-https://example.com/programs
+https://beit-midrash-kehilati-lerabani.zappy5.app/programs
 בחרו מבין תוכניות הכשרה מגוונות לרבנים וסטודנטים לרבנות, המשלבות לימוד הלכה מעמיק, מנהיגות קהילתית ופסיקה מעשית. הרשמו עוד היום ותתחילו את מסע הרבנות שלכם.
 
 ### צור קשר
-https://example.com/contact
+https://beit-midrash-kehilati-lerabani.zappy5.app/contact
 רוצים להצטרף לבית המדרש הקהילתי לרבנים או לשמוע עוד על תוכניות ההכשרה? צרו קשר עכשיו וצוות המומחים שלנו ישמח ללוות אתכם בכל שלב בדרך לרבנות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://beit-midrash-kehilati-lerabani.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://beit-midrash-kehilati-lerabani.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://beit-midrash-kehilati-lerabani.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About בית מדרש קהילתי לרבנים
+A community-based Torah study institution (Beit Midrash) aimed at rabbis and rabbinical students. The institution appears to have a communal and educational character, focused on Jewish learning and rabbinical training within a community framework.
+
+## Target Audience
+רבנים וסטודנטים לרבנות
+
+## Industry
+חינוך יהודי / דת
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://beit-midrash-kehilati-lerabani.zappy5.app/sitemap.xml
+- **Robots.txt**: https://beit-midrash-kehilati-lerabani.zappy5.app/robots.txt
