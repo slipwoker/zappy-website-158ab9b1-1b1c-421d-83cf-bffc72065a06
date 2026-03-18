@@ -218,27 +218,34 @@
 })();
 </script>
 <!-- End Zappy Analytics -->
-    <meta property="og:title" content="הכירו את הלב הפועם של הרבנות הקהילתית — בית מדרש קהילתי לרבנים">
-  <meta property="og:description" content="גלו את הסיפור מאחורי המוסד התורני שמכשיר דור חדש של רבנים קהילתיים בישראל. ערכים, חזון ומסורת של מצוינות רבנית שמניעים אותנו קדימה בכל יום.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="he_IL">
+    </meta>
+  </meta>
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="הכירו את הלב הפועם של הרבנות הקהילתית — בית מדרש קהילתי לרבנים">
-  <meta name="twitter:description" content="גלו את הסיפור מאחורי המוסד התורני שמכשיר דור חדש של רבנים קהילתיים בישראל. ערכים, חזון ומסורת של מצוינות רבנית שמניעים אותנו קדימה בכל יום.">
+  </meta>
+  </meta>
+  </meta>
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta property="og:title" content="הכירו את הלב הפועם של הרבנות הקהילתית — בית מדרש קהילתי לרבנים"></meta>
+  <meta property="og:description" content="גלו את הסיפור מאחורי המוסד התורני שמכשיר דור חדש של רבנים קהילתיים בישראל. ערכים, חזון ומסורת של מצוינות רבנית שמניעים אותנו קדימה בכל יום."></meta>
+  <meta property="og:type" content="website"></meta>
+  <meta property="og:locale" content="he_IL"></meta>
+  
+  <meta name="twitter:card" content="summary_large_image"></meta>
+  <meta name="twitter:title" content="הכירו את הלב הפועם של הרבנות הקהילתית — בית מדרש קהילתי לרבנים"></meta>
+  <meta name="twitter:description" content="גלו את הסיפור מאחורי המוסד התורני שמכשיר דור חדש של רבנים קהילתיים בישראל. ערכים, חזון ומסורת של מצוינות רבנית שמניעים אותנו קדימה בכל יום."></meta>
+  </link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"></link>
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"></link>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"></link>
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png"></link>
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png"></link>
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png"></link>
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"></link>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css"></link>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -342,9 +349,9 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="בית מדרש קהילתי לרבנים" class="logo">
+        <img src="/assets/business-logo.webp" alt="בית מדרש קהילתי לרבנים" class="logo"></img>
       </a>
-    </div><ul class="nav-menu" id="navMenu"><li><a href="/about">אודות</a></li><li><a href="/programs">תוכניות</a></li></ul></div>
+    </div><ul class="nav-menu" id="navMenu"><li><a href="/" data-i18n="nav-home">בית</a></li><li><a href="/about">אודות</a></li><li><a href="/programs">תוכניות</a></li></ul></div>
 
     
 
@@ -389,12 +396,12 @@
     // Check if background is transparent or rgba with 0 alpha
     const isTransparent = bgColor === 'transparent' || 
                          bgColor === 'rgba(0, 0, 0, 0)' ||
-                         (bgColor.startsWith('rgba') && bgColor.includes(', 0)'));
+                         (bgColor.startsWith('rgba') &amp;&amp; bgColor.includes(', 0)'));
     
     if (isTransparent) {
       // Check for background-image or gradient
       const bgImage = computedStyle.backgroundImage;
-      if (bgImage && bgImage !== 'none') {
+      if (bgImage &amp;&amp; bgImage !== 'none') {
         console.log('[Navbar] Navbar has background image/gradient, using dark text');
         bgColor = 'rgb(240, 240, 240)'; // Assume light background
       } else {
@@ -407,7 +414,7 @@
     
     // Calculate luminance to determine if background is light or dark
     const rgb = bgColor.match(/\d+/g);
-    if (rgb && rgb.length >= 3) {
+    if (rgb &amp;&amp; rgb.length &gt;= 3) {
       const r = parseInt(rgb[0]);
       const g = parseInt(rgb[1]);
       const b = parseInt(rgb[2]);
@@ -543,7 +550,7 @@
       // ONLY apply inline positioning styles on mobile viewport
       // On desktop, the CSS handles hiding these buttons with display: none
       // Inline styles were breaking desktop layout by overriding CSS
-      const isMobileViewport = window.innerWidth <= 768;
+      const isMobileViewport = window.innerWidth &lt;= 768;
       
       if (mobileToggle) {
         // Icon sizing applies to all viewports for consistency
@@ -734,7 +741,7 @@
       phoneBtn.addEventListener('click', function() {
         // Get phone number from placeholder in page or use default
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
-        const phoneNumber = phoneLinks.length > 0 
+        const phoneNumber = phoneLinks.length &gt; 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
           : '[business_phone]';
         
@@ -751,7 +758,7 @@
     const handleWhatsAppVisibility = function() {
       const whatsappBtn = document.querySelector('.whatsapp-float');
       if (whatsappBtn) {
-        const isDesktop = window.innerWidth >= 769;
+        const isDesktop = window.innerWidth &gt;= 769;
         if (isDesktop) {
           whatsappBtn.style.setProperty('display', 'none', 'important');
           whatsappBtn.style.setProperty('visibility', 'hidden', 'important');
@@ -807,7 +814,7 @@
       <!-- Image Column (END / Left side in RTL) -->
       <div class="about-story-image-col">
         <figure class="about-story-figure">
-          <img data-placeholder="about-story-image-1" data-context="A documentary-style photograph of two rabbinical students or rabbis engaged in quiet, intimate Torah study together in a warm, sunlit room. Open books on a wooden table, natural window light casting soft shadows, a lived-in authentic beit midrash atmosphere — bookshelves in the background, aged volumes, warm wood tones. The scene feels genuine and human, not staged or formal." width="560" height="720" src="/assets/site-about-story-image-1.webp" alt="לימוד תורה בבית המדרש הקהילתי לרבנים — שיחה אינטימית בין חברותות">
+          <img data-placeholder="about-story-image-1" data-context="A documentary-style photograph of two rabbinical students or rabbis engaged in quiet, intimate Torah study together in a warm, sunlit room. Open books on a wooden table, natural window light casting soft shadows, a lived-in authentic beit midrash atmosphere — bookshelves in the background, aged volumes, warm wood tones. The scene feels genuine and human, not staged or formal." width="560" height="720" src="/assets/site-about-story-image-1.webp" alt="לימוד תורה בבית המדרש הקהילתי לרבנים — שיחה אינטימית בין חברותות"></img>
           <div class="about-story-image-overlay"></div>
         </figure>
       </div>
@@ -835,7 +842,7 @@
       <!-- Card 1 -->
       <article class="about-team-card about-team-card--tall">
         <figure class="about-team-figure">
-          <img data-placeholder="about-team-image-1" data-context="Portrait of a wise senior rabbi in his 60s with a warm, scholarly appearance, wearing traditional Jewish attire, seated in a book-lined study, soft natural light, warm tones, chest-height crop, approachable and dignified expression" width="400" height="420" src="/assets/site-about-team-image-1.webp" alt="ראש בית המדרש – פרופ׳ הרב דוד כהן">
+          <img data-placeholder="about-team-image-1" data-context="Portrait of a wise senior rabbi in his 60s with a warm, scholarly appearance, wearing traditional Jewish attire, seated in a book-lined study, soft natural light, warm tones, chest-height crop, approachable and dignified expression" width="400" height="420" src="/assets/site-about-team-image-1.webp" alt="ראש בית המדרש – פרופ׳ הרב דוד כהן"></img>
         </figure>
         <div class="about-team-card-body">
           <span class="about-team-role-tag">ראש בית המדרש</span>
@@ -847,7 +854,7 @@
       <!-- Card 2 -->
       <article class="about-team-card">
         <figure class="about-team-figure">
-          <img data-placeholder="about-team-image-2" data-context="Portrait of a female rabbi in her 40s with a warm smile, wearing modest professional attire, standing near a Torah scroll in a synagogue setting, soft warm lighting, chest-height crop, conveying pastoral warmth and intellectual depth" width="400" height="380" src="/assets/site-about-team-image-2.webp" alt="מנחה לרבנות קהילתית – הרבנית מרים לוי">
+          <img data-placeholder="about-team-image-2" data-context="Portrait of a female rabbi in her 40s with a warm smile, wearing modest professional attire, standing near a Torah scroll in a synagogue setting, soft warm lighting, chest-height crop, conveying pastoral warmth and intellectual depth" width="400" height="380" src="/assets/site-about-team-image-2.webp" alt="מנחה לרבנות קהילתית – הרבנית מרים לוי"></img>
         </figure>
         <div class="about-team-card-body">
           <span class="about-team-role-tag">מנחה לרבנות קהילתית</span>
@@ -859,7 +866,7 @@
       <!-- Card 3 -->
       <article class="about-team-card">
         <figure class="about-team-figure">
-          <img data-placeholder="about-team-image-3" data-context="Portrait of a middle-aged male rabbi scholar in his 50s, wearing glasses and a kippah, sitting at a desk with open Talmud volumes, natural warm light from a window, chest-height crop, intellectual and thoughtful expression" width="400" height="380" src="/assets/site-about-team-image-3.webp" alt="ראש תחום תלמוד ופוסקים – הרב אלי שפירא">
+          <img data-placeholder="about-team-image-3" data-context="Portrait of a middle-aged male rabbi scholar in his 50s, wearing glasses and a kippah, sitting at a desk with open Talmud volumes, natural warm light from a window, chest-height crop, intellectual and thoughtful expression" width="400" height="380" src="/assets/site-about-team-image-3.webp" alt="ראש תחום תלמוד ופוסקים – הרב אלי שפירא"></img>
         </figure>
         <div class="about-team-card-body">
           <span class="about-team-role-tag">ראש תחום תלמוד ופוסקים</span>
@@ -871,7 +878,7 @@
       <!-- Card 4 -->
       <article class="about-team-card about-team-card--tall">
         <figure class="about-team-figure">
-          <img data-placeholder="about-team-image-4" data-context="Portrait of a younger rabbi in his 30s with an engaging presence, wearing a tallit draped over his shoulders, standing in a beit midrash study hall with rows of books, warm ambient light, chest-height crop, energetic and inspiring demeanor" width="400" height="420" src="/assets/site-about-team-image-4.webp" alt="מנחה למחשבת ישראל ומנהיגות – הרב יונתן אמיר">
+          <img data-placeholder="about-team-image-4" data-context="Portrait of a younger rabbi in his 30s with an engaging presence, wearing a tallit draped over his shoulders, standing in a beit midrash study hall with rows of books, warm ambient light, chest-height crop, energetic and inspiring demeanor" width="400" height="420" src="/assets/site-about-team-image-4.webp" alt="מנחה למחשבת ישראל ומנהיגות – הרב יונתן אמיר"></img>
         </figure>
         <div class="about-team-card-body">
           <span class="about-team-role-tag">מחשבת ישראל ומנהיגות</span>
@@ -956,10 +963,10 @@
   <div class="about-timeline-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 70" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="timelineFadeGrad" x1="0" y1="0" x2="0" y2="1">
+        <lineargradient id="timelineFadeGrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="#F3EBDD" stop-opacity="0"></stop>
           <stop offset="100%" stop-color="#F3EBDD" stop-opacity="1"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <rect width="1200" height="70" fill="url(#timelineFadeGrad)"></rect>
     </svg>
@@ -977,37 +984,37 @@
 
       <!-- Image 1: Large anchor image, first row start side -->
       <figure class="gallery-item gallery-item--large">
-        <img data-placeholder="about-gallery-image-1" data-context="Two rabbinical students sitting together at a wooden table in a warmly lit Beit Midrash, studying from large open Talmud volumes, handwritten notes scattered around, natural window light, intimate and focused atmosphere, warm cream and brown tones, documentary photography style" width="700" height="520" src="/assets/site-about-gallery-image-1.webp" alt="שני תלמידים לומדים יחד בחברותא בבית המדרש">
+        <img data-placeholder="about-gallery-image-1" data-context="Two rabbinical students sitting together at a wooden table in a warmly lit Beit Midrash, studying from large open Talmud volumes, handwritten notes scattered around, natural window light, intimate and focused atmosphere, warm cream and brown tones, documentary photography style" width="700" height="520" src="/assets/site-about-gallery-image-1.webp" alt="שני תלמידים לומדים יחד בחברותא בבית המדרש"></img>
         <figcaption class="gallery-caption">לימוד בחברותא</figcaption>
       </figure>
 
       <!-- Image 2: Portrait, first row -->
       <figure class="gallery-item gallery-item--portrait">
-        <img data-placeholder="about-gallery-image-2" data-context="An elderly rabbi with a white beard mentoring a young rabbinical student, both looking at a handwritten manuscript or responsa, warm library setting with bookshelves of Jewish books in the background, intergenerational learning, soft natural light, editorial photography" width="400" height="520" src="/assets/site-about-gallery-image-2.webp" alt="רב מנחה תלמיד צעיר — שיחה בין-דורית">
+        <img data-placeholder="about-gallery-image-2" data-context="An elderly rabbi with a white beard mentoring a young rabbinical student, both looking at a handwritten manuscript or responsa, warm library setting with bookshelves of Jewish books in the background, intergenerational learning, soft natural light, editorial photography" width="400" height="520" src="/assets/site-about-gallery-image-2.webp" alt="רב מנחה תלמיד צעיר — שיחה בין-דורית"></img>
         <figcaption class="gallery-caption">מפגש דורות</figcaption>
       </figure>
 
       <!-- Image 3: Landscape, second row -->
       <figure class="gallery-item gallery-item--landscape">
-        <img data-placeholder="about-gallery-image-3" data-context="A communal Shabbat or weekday meal in a Beit Midrash dining hall, rabbinical students and rabbis seated around long tables with white tablecloths, animated conversation, warm candlelight and natural light, sense of community and belonging, warm documentary style photography" width="600" height="360" src="/assets/site-about-gallery-image-3.webp" alt="ארוחה משותפת וקהילה בבית המדרש">
+        <img data-placeholder="about-gallery-image-3" data-context="A communal Shabbat or weekday meal in a Beit Midrash dining hall, rabbinical students and rabbis seated around long tables with white tablecloths, animated conversation, warm candlelight and natural light, sense of community and belonging, warm documentary style photography" width="600" height="360" src="/assets/site-about-gallery-image-3.webp" alt="ארוחה משותפת וקהילה בבית המדרש"></img>
         <figcaption class="gallery-caption">שולחן משותף</figcaption>
       </figure>
 
       <!-- Image 4: Square/landscape, second row -->
       <figure class="gallery-item gallery-item--medium">
-        <img data-placeholder="about-gallery-image-4" data-context="Close-up detail of handwritten notes in Hebrew on cream-colored paper, open Talmud or halacha book beside it, a pen resting on the page, natural daylight from a window, tactile and intimate, editorial still-life photography for a Jewish learning institution" width="400" height="360" src="/assets/site-about-gallery-image-4.webp" alt="הערות בכתב יד על דף גמרא">
+        <img data-placeholder="about-gallery-image-4" data-context="Close-up detail of handwritten notes in Hebrew on cream-colored paper, open Talmud or halacha book beside it, a pen resting on the page, natural daylight from a window, tactile and intimate, editorial still-life photography for a Jewish learning institution" width="400" height="360" src="/assets/site-about-gallery-image-4.webp" alt="הערות בכתב יד על דף גמרא"></img>
         <figcaption class="gallery-caption">כתב יד על הדף</figcaption>
       </figure>
 
       <!-- Image 5: Portrait, third row -->
       <figure class="gallery-item gallery-item--portrait-sm">
-        <img data-placeholder="about-gallery-image-5" data-context="A rabbi standing at the front of a small classroom or seminar room, speaking passionately to a group of attentive rabbinical students, bookshelves behind him, warm ambient light, chalk or whiteboard visible, community learning atmosphere, documentary photography" width="400" height="440" src="/assets/site-about-gallery-image-5.webp" alt="שיעור תורה בכיתה קהילתית">
+        <img data-placeholder="about-gallery-image-5" data-context="A rabbi standing at the front of a small classroom or seminar room, speaking passionately to a group of attentive rabbinical students, bookshelves behind him, warm ambient light, chalk or whiteboard visible, community learning atmosphere, documentary photography" width="400" height="440" src="/assets/site-about-gallery-image-5.webp" alt="שיעור תורה בכיתה קהילתית"></img>
         <figcaption class="gallery-caption">שיעור ודיון</figcaption>
       </figure>
 
       <!-- Image 6: Landscape, third row -->
       <figure class="gallery-item gallery-item--landscape-wide">
-        <img data-placeholder="about-gallery-image-6" data-context="Wide shot of a Beit Midrash study hall filled with rabbinical students at their desks, bookshelves lining the walls packed with Jewish texts, warm afternoon light streaming through tall windows, a sense of quiet industry and collective learning, architectural documentary photography" width="700" height="440" src="/assets/site-about-gallery-image-6.webp" alt="אולם בית המדרש הקהילתי לרבנים — מבט כולל">
+        <img data-placeholder="about-gallery-image-6" data-context="Wide shot of a Beit Midrash study hall filled with rabbinical students at their desks, bookshelves lining the walls packed with Jewish texts, warm afternoon light streaming through tall windows, a sense of quiet industry and collective learning, architectural documentary photography" width="700" height="440" src="/assets/site-about-gallery-image-6.webp" alt="אולם בית המדרש הקהילתי לרבנים — מבט כולל"></img>
         <figcaption class="gallery-caption">אולם הלימוד</figcaption>
       </figure>
 
@@ -1016,7 +1023,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/business-logo.webp" alt="בית מדרש קהילתי לרבנים" class="logo"><p class="footer-tagline">מרכז לימוד ורוחניות יהודית לרבנים ולקהילה</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">ניווט מהיר</i></h4><ul><li><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/about">אודות</a></i></li><li><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/programs">תוכניות</a></i></li><li><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/contact">צור קשר</a></i></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">יצירת קשר</i></h4><ul class="contact-list"><li><a href="/"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fas fa-envelope"></i><span>[business_email]</span></i></a></li><li><a href="/"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fas fa-phone"></i><span>[business_phone]</span></i></a></li><li><a href="/"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fas fa-map-marker-alt"></i><span>[business_address]</span></i></a></li></ul></div><div class="footer-col footer-about"><h4 class="footer-heading"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">אודות בית המדרש</i></h4><p class="footer-about-text"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">בית מדרש קהילתי לרבנים הוא מרכז תורני ייחודי המוקדש ללימוד עמוק של התורה, הלכה ומחשבת ישראל לדורות הבאים של מנהיגי הקהילה.</i></p><div class="footer-divider-accent"></div></div></div><div class="footer-bottom"><div class="footer-bottom-inner"><p class="footer-copyright"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">© 2026 בית מדרש קהילתי לרבנים. כל הזכויות שמורות.</i></p><div class="footer-legal"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/privacy">מדיניות פרטיות</a><span class="separator">|</span><a href="/terms">תנאי שימוש</a><span class="separator">|</span><a href="/accessibility">נגישות</a><span class="separator">|</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></i></div></div></div></div></footer><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">
+  <footer class="site-footer"><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/business-logo.webp" alt="בית מדרש קהילתי לרבנים" class="logo"></img><p class="footer-tagline">מרכז לימוד ורוחניות יהודית לרבנים ולקהילה</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">ניווט מהיר</i></h4><ul><li><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/about">אודות</a></i></li><li><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/programs">תוכניות</a></i></li><li><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/contact">צור קשר</a></i></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">יצירת קשר</i></h4><ul class="contact-list"><li><a href="/"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fas fa-envelope"></i><span>[business_email]</span></i></a></li><li><a href="/"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fas fa-phone"></i><span>[business_phone]</span></i></a></li><li><a href="/"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><i class="fas fa-map-marker-alt"></i><span>[business_address]</span></i></a></li></ul></div><div class="footer-col footer-about"><h4 class="footer-heading"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">אודות בית המדרש</i></h4><p class="footer-about-text"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">בית מדרש קהילתי לרבנים הוא מרכז תורני ייחודי המוקדש ללימוד עמוק של התורה, הלכה ומחשבת ישראל לדורות הבאים של מנהיגי הקהילה.</i></p><div class="footer-divider-accent"></div></div></div><div class="footer-bottom"><div class="footer-bottom-inner"><p class="footer-copyright"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">© 2026 בית מדרש קהילתי לרבנים. כל הזכויות שמורות.</i></p><div class="footer-legal"><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp"><a href="/privacy">מדיניות פרטיות</a><span class="separator">|</span><a href="/terms">תנאי שימוש</a><span class="separator">|</span><a href="/accessibility">נגישות</a><span class="separator">|</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></i></div></div></div></div></footer><i class="fab fa-instagram&quot;></i></a><a href=" [whatsapp_handle]'="" aria-label="WhatsApp">
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
