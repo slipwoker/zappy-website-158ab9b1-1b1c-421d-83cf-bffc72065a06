@@ -783,10 +783,10 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="zappy-section-0">
   <!-- Background Image -->
   <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Warm intergenerational Torah study circle around a wooden table in a traditional beit midrash. Natural window light illuminates open books, aged hands turning pages, and candid eye contact between a rabbi and younger students. Warm cream, espresso brown, and amber tones. Visible bookshelves filled with Jewish texts in background. Intimate, scholarly, communal atmosphere." width="1440" height="900" src="/assets/site-index-hero-image-1.webp" alt="לימוד תורה בקהילה – רבנים וסטודנטים מסביב לשולחן עץ בבית מדרש">
+    <div data-zappy-zoom-wrapper="true" data-element-id="img-1773840638065-oi4f141s5" data-element-type="image" data-zappy-zoom-wrapper-width="1477px" data-zappy-zoom-wrapper-height="858px" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; overflow: hidden !important; width: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; height: 100% !important; display: block !important; top: 0px !important; left: 0px !important; z-index: 1 !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Warm intergenerational Torah study circle around a wooden table in a traditional beit midrash. Natural window light illuminates open books, aged hands turning pages, and candid eye contact between a rabbi and younger students. Warm cream, espresso brown, and amber tones. Visible bookshelves filled with Jewish texts in background. Intimate, scholarly, communal atmosphere." width="1440" height="900" src="/assets/business-general-hero-upload-1773844555947.webp" alt="לימוד תורה בקהילה – רבנים וסטודנטים מסביב לשולחן עץ בבית מדרש" data-element-type="image" data-element-id="img-1773840638065-oi4f141s5" class="zappy-editable-image" data-resize-handler-attached="true" style="object-position: 50% 50%; margin: 0px !important; position: absolute !important; left: -13.9084% !important; top: -10% !important; width: 127.817% !important; height: 120% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1.2" data-zappy-original-width="1476.800048828125" data-zappy-original-height="858"></div>
   </div>
 
   <!-- Scrim Overlay -->
@@ -795,19 +795,19 @@
   <!-- Overlay Card -->
   <div class="index-hero-content-wrap">
     <article class="index-hero-card">
-      <span class="index-hero-label">בית מדרש קהילתי לרבנים</span>
-      <h1 class="index-hero-h1">לימוד תורה שורשי,<br>מתוך קהילה חיה</h1>
-      <h3 class="index-hero-subtitle">&nbsp;לימוד מעמיק ויצירת רבנות הנולדת מתוך אחריות קהילתית – כאן מתעצב הדור הבא של מנהיגי ישראל.</h3>
+      <p><span class="index-hero-label">בית מדרש קהילתי לרבנים</span>
+      </p><h1 class="index-hero-h1" style="">לימוד תורה שורשי,<br>מתוך קהילה חיה</h1>
+      <h3 class="index-hero-subtitle" style="">&nbsp;לימוד מעמיק ויצירת רבנות הנולדת מתוך אחריות קהילתית – כאן מתעצב הדור הבא של מנהיגי ישראל.</h3>
       <div class="index-hero-ctas">
-        <a href="/programs" class="index-hero-btn-primary">לתוכניות הלימוד</a>
-        <a href="/contact" class="index-hero-btn-secondary">צרו קשר</a>
+        <a href="/programs" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1773840638060-lxew2jlns" data-native-element="true">לתוכניות הלימוד</a>
+        <a href="/contact" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1773840638060-x0d76q4gp" data-native-element="true">צרו קשר</a>
       </div>
     </article>
   </div>
 
   <!-- Bottom Divider -->
   <div class="index-hero-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,52 Q60,44 120,50 T240,46 Q300,52 360,44 T480,50 Q540,46 600,52 T720,44 Q780,50 840,46 T960,52 Q1020,44 1080,50 T1200,46 Q1260,52 1320,44 T1440,50 L1440,90 Z" fill="#F3EBDD"></path>
     </svg>
   </div>
@@ -1226,6 +1226,34 @@
       if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
       else { initMobileLangMenu(); }
       window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
+    })();
+    </script>
+
+    <script>
+    (function(){
+      if(window.innerWidth>768)return;
+      function fixZW(){
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          var cw=w.style.getPropertyValue('width');
+          if(!cw||cw==='100%')return;
+          w.style.setProperty('width','100%','important');
+          w.style.setProperty('max-width','100%','important');
+          w.style.setProperty('height','auto','important');
+          var img=w.querySelector('img');
+          if(img){
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('max-width','100%','important');
+            img.style.setProperty('max-height','400px','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+          }
+        });
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fixZW);
+      else setTimeout(fixZW,50);
     })();
     </script>
 </body>
