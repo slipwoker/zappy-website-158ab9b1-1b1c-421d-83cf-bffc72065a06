@@ -1,6 +1,4 @@
-# בית מדרש קהילתי לרבנים — Generative Engine Optimization Map
-
-> A community-based Torah study institution (Beit Midrash) aimed at rabbis and rabbinical students. The institution appears to have a communal and educational character, focused on Jewish learning and rabbinical training within a community framework.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About בית מדרש קהילתי לרבנים
-A community-based Torah study institution (Beit Midrash) aimed at rabbis and rabbinical students. The institution appears to have a communal and educational character, focused on Jewish learning and rabbinical training within a community framework.
-
-## Target Audience
-רבנים וסטודנטים לרבנות
-
-## Industry
-חינוך יהודי / דת
-
+## About Business
 ---
 
 # Additional Resources
